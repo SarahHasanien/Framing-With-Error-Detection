@@ -7,12 +7,12 @@
 #include <map>
 #include "math.h"
 using namespace std;
-   /**
-    * Reads data from input file and saves it into vector.
-    *
-    * @param path      the path of the file.
-    * @param data      the container in which the data is saved rack of tiles to play from.
-    */
+/**
+* Reads data from input file and saves it into vector.
+*
+* @param path      the path of the file.
+* @param data      the container in which the data is saved rack of tiles to play from.
+*/
 void readFile(string path,vector<string>&data)
 {
 	ifstream inputFile;
@@ -157,10 +157,6 @@ void printFrames(vector<string>frames)
 }
 /**
  * Checks if parity in frames is true and prints the original payload.
- *
- * @param binaryStream  the path of the file.
- *
- * @return character    the char corresponds to the stream.
  */
 void printOriginalPayload()
 {
